@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# Redirection HTTP vers HTTPS
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.robinberdier.com/$1 [R,L]
+
+# Rediriger toutes les requêtes vers index.html sauf si le fichier ou le répertoire existe
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.html [L]
+
+# Gestion des erreurs 404
+ErrorDocument 404 https://www.robinberdier.com/
+
+# Configuration des en-têtes CORS
+Header set Access-Control-Allow-Origin: *
