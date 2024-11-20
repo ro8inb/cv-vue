@@ -1,56 +1,16 @@
-# cv
+# Robin Berdier - CV en ligne
 
-This template should help get you started developing with Vue 3 in Vite.
+Ce dépôt contient le code source de mon CV en ligne, développé avec **Vue.js 3**. L'application présente mon expérience professionnelle, mes compétences et mes projets de manière moderne et interactive.
 
-## Recommended IDE Setup
+**URL du site** : [robinberdier.com](https://robinberdier.com)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Fonctionnalités
 
-## Type Support for `.vue` Imports in TS
+- **Interface interactive** : Utilisation de Vue.js 3 pour une expérience utilisateur dynamique.
+- **Design responsive** : Optimisé pour les ordinateurs de bureau et les appareils mobiles.
+- **Technologies modernes** : Mise en œuvre des meilleures pratiques du développement web actuel.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Prérequis
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-
-### Icons 
-
-https://heroicons.com/
+- **Node.js** (version 14 ou supérieure)
+- **npm** ou **Yarn** pour la gestion des dépendances.
